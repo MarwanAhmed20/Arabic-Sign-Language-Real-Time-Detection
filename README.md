@@ -11,17 +11,17 @@
 * * 2.	define an array of 25 gestures that will be used to train our model for recognition.:
   (["اهلا" ,"اراك-احقا", "انا" ,"ابي" ,"امي", "نعم" ,"لا", "مساعدة" ,"من فضلك" ,"شكرا-لك", "اريد" ,"ماذا" ,"كلب" ,"قطة", "تكرارا" ,"طعام" ,"حليب", "المزيد" ,"ذاهب-الي" ,"الحمام" ,"بخير" ,"مثل" ,"يتعلم", "اشارة", "انتهي")]
 
-* * ![image](https://github.com/MarwanAhmed20/Arabic-Sign-Language-Real-Time-Detection/assets/47067493/94193fde-fc7a-4ffc-9075-1297f75c35d6)
+* * * ![image](https://github.com/MarwanAhmed20/Arabic-Sign-Language-Real-Time-Detection/assets/47067493/94193fde-fc7a-4ffc-9075-1297f75c35d6)
 
 * * 3.	define the number of videos (200) to collect and the number of frames (30) for each video to be captured
 
 * * 4.	After done with creation of the gesture folder, the next step is collection of data in folders-A loop is then run to create the 200 video folders for each of the gestures
        
-* * ![image](https://github.com/MarwanAhmed20/Arabic-Sign-Language-Real-Time-Detection/assets/47067493/08586afe-6e25-4c12-8fd5-835fdc905f83)
+* * * ![image](https://github.com/MarwanAhmed20/Arabic-Sign-Language-Real-Time-Detection/assets/47067493/08586afe-6e25-4c12-8fd5-835fdc905f83)
 
 * * 5.	The next step is to collect the video data for each gesture and use the extract_keypoints function to collect the array of key points for each frame. Finally the numpy array of key points collected is saved for each frame inside each video folder as shown in the Figure 4 below, in the figure it shows till 10.npy it actually goes till 29.npy.
   
-* * ![image](https://github.com/MarwanAhmed20/Arabic-Sign-Language-Real-Time-Detection/assets/47067493/c1d1b0db-bf28-4426-8231-b2d9c3e7741b)
+* * * ![image](https://github.com/MarwanAhmed20/Arabic-Sign-Language-Real-Time-Detection/assets/47067493/c1d1b0db-bf28-4426-8231-b2d9c3e7741b)
 
 ## 2. Hand Detection using Mediapipe Holistic model :-
 * Mediapipe as itself offers a wide range of solutions, within the holistic pipeline of mediapipe, it consists of three components: pose, hand and face. 
