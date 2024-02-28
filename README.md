@@ -1,4 +1,5 @@
 # Arabic Sign Language Real-Time Detection
+## Files
 * Train model.ipynb -> collect data and training Model
 * gp_model.h5 -> model weights
 * https://drive.google.com/drive/folders/1J5CWTA_B05RPQFzJnR-EH9VNCaKGAw88 -> Data collected
@@ -46,7 +47,7 @@
 * Test accuracy is → 85% 
 * Training accuracy is → 96%
   
-## Model Test in real live
+# Model Test in real live
 * ![Untitled](https://github.com/MarwanAhmed20/Arabic-Sign-Language-Real-Time-Detection/assets/47067493/9849dda6-128b-42e7-8318-8fb6cf631488)
 
 
