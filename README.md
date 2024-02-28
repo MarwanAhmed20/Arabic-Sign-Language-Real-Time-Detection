@@ -5,6 +5,21 @@
 * https://drive.google.com/drive/folders/1J5CWTA_B05RPQFzJnR-EH9VNCaKGAw88 -> Data collected
 * Sign language detiction.ipynb -> deploy model
 -----------------------------------------------------------------------------------------------
+## Model Summary
+* ![gp_model](https://github.com/MarwanAhmed20/Arabic-Sign-Language-Real-Time-Detection/assets/47067493/26550be5-0ba2-4325-806a-23ecb0c5112f)
+* Test accuracy is → 85% 
+* Training accuracy is → 96%
+  
+# Model Test in real live
+* ![Untitled](https://github.com/MarwanAhmed20/Arabic-Sign-Language-Real-Time-Detection/assets/47067493/9849dda6-128b-42e7-8318-8fb6cf631488)
+
+# Libraries used
+* openCV
+* Tensorflow
+* Mediapipe
+* arabic_reshaper 
+
+------------------------------------------------------------------------------
 ## 1. Data collection and processing :-
 * Due to the shortage of Arabic real time prediction datasets, i have collected my own data-set for the training and testing of deep learning model in the following way:
 * * 1.	creat a folder for the dataset using: os.path.join ('data_folder_name') method
@@ -41,21 +56,6 @@
 
 ## Some screenshots for data collecting 
 * ![Untitled](https://github.com/MarwanAhmed20/Arabic-Sign-Language-Real-Time-Detection/assets/47067493/fe3be206-8aeb-4a01-a08b-8f2ddff516fc)
-
-## Model Summary
-* ![gp_model](https://github.com/MarwanAhmed20/Arabic-Sign-Language-Real-Time-Detection/assets/47067493/26550be5-0ba2-4325-806a-23ecb0c5112f)
-* Test accuracy is → 85% 
-* Training accuracy is → 96%
-  
-# Model Test in real live
-* ![Untitled](https://github.com/MarwanAhmed20/Arabic-Sign-Language-Real-Time-Detection/assets/47067493/9849dda6-128b-42e7-8318-8fb6cf631488)
-
-
-# Libraries used
-* openCV
-* Tensorflow
-* Mediapipe
-* arabic_reshaper 
 
 
 
